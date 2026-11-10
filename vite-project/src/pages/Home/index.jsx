@@ -19,7 +19,7 @@ function Home() {
       </form>
 
       {users.map(user => (<div>
-        <div key={user.id}>
+        <div key={user.id} className='card'>
           <p>Nome: {user.nome} </p>
           <p>Idade: {user.idade}</p>
           <p>Email: {user.email} </p>

@@ -47,5 +47,25 @@ form{
     outline: none;
   }
 
-
+  
 }
+
+.card{
+    display: flex;
+    justify-content: space-between;
+    background-color: #00d4ff;
+    padding: 10px;
+    border-radius: 10px;
+    color: #000;
+    margin: 10px;
+    width: 400px;
+
+    & p{
+      color: #fff;
+      font-weight: bold;
+    }
+
+    & span {
+      font-weight: normal;
+    }
+  }
